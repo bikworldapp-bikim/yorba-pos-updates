@@ -3,9 +3,19 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>Yorba Cleaners POS 1.0.0+1</title>
-      <description>최초 설치 버전입니다. 새 버전 확인 및 수동 업데이트, SMS 목록과 보관 예정 주문 표시를 개선했습니다.</description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.0%2B1/YorbaPOS-1.0.0.1-Setup.exe" sparkle:version="1.0.0.1" sparkle:os="windows" sparkle:dsaSignature="MD0CHG57Uqy6vW21WI4qdXM9ycbXfDP+ZXQuBcjV6FgCHQDRhESWO3Vxk+UOzVsUFr4mEXFVtbsQr5+yVV1/" length="23037988" type="application/octet-stream" />
+      <title>윈도우 POS 1.0.1+2</title>
+      <description>## 윈도우 POS 1.0.1+2
+
+- 메인 대시보드 앱바에 업데이트 진입 버튼을 추가했습니다.
+- 새 버전이 있으면 업데이트 아이콘을 강조색과 NEW 배지로 표시합니다.
+- 일반 사용자도 새 버전을 확인하고 직접 업데이트할 수 있습니다.
+- 업데이트 화면과 안내 문구를 한국어로 표시합니다.
+- 메시지 화면의 Received 탭에 안 읽은 메시지 수를 빨간 배지로 표시합니다.
+- 다른 메시지 탭을 보고 있어도 안 읽은 메시지 표시가 실시간으로 갱신됩니다.
+
+자동 설치는 하지 않습니다. 주문 저장·결제·인쇄를 마친 뒤 업데이트 버튼을 눌러 진행해 주세요.
+</description>
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.1%2B2/YorbaPOS-1.0.1.2-Setup.exe" sparkle:version="1.0.1.2" sparkle:os="windows" sparkle:dsaSignature="MD4CHQCaiXytDGM75Zs7wagjea/dpHT+Ng+kdQMJ0Vr+Ah0AhexPdB7jUQ0wKkXoZ2hYd4dC8ikYfii/hwvRjg==" length="23040555" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
