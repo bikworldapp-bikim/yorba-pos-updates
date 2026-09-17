@@ -3,19 +3,19 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>윈도우 POS 1.0.1+2</title>
-      <description>## 윈도우 POS 1.0.1+2
+      <title>윈도우 POS 1.0.2+3</title>
+      <description># Windows POS 1.0.2+3
 
-- 메인 대시보드 앱바에 업데이트 진입 버튼을 추가했습니다.
-- 새 버전이 있으면 업데이트 아이콘을 강조색과 NEW 배지로 표시합니다.
-- 일반 사용자도 새 버전을 확인하고 직접 업데이트할 수 있습니다.
-- 업데이트 화면과 안내 문구를 한국어로 표시합니다.
-- 메시지 화면의 Received 탭에 안 읽은 메시지 수를 빨간 배지로 표시합니다.
-- 다른 메시지 탭을 보고 있어도 안 읽은 메시지 표시가 실시간으로 갱신됩니다.
+- 마지막 창 크기와 최대화 상태를 로컬 Hive에 저장하고 다음 실행 시 복원합니다.
+- 드롭오프와 딜리버리 인테이크의 Upcharge·Color·Alteration 및 Single/Multiple 설정을 기기별 로컬 Hive에 저장합니다.
+- 미등록 번호 SMS를 Yorba 수신함과 Unmatched 필터에서 확인할 수 있습니다.
+- 미등록 문자의 상세 내용·첨부파일 보기, 읽음 처리, Yorba 고객 코드 연결을 지원합니다.
+- Lido 목록과 알림 숫자에서 미등록 번호를 제외합니다.
+- 고객 연결은 대화 식별용이며 고객 전화번호와 SMS 동의는 변경하지 않습니다.
 
-자동 설치는 하지 않습니다. 주문 저장·결제·인쇄를 마친 뒤 업데이트 버튼을 눌러 진행해 주세요.
+주문 저장·결제·인쇄를 마친 뒤 업데이트를 진행해 주세요.
 </description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.1%2B2/YorbaPOS-1.0.1.2-Setup.exe" sparkle:version="1.0.1.2" sparkle:os="windows" sparkle:dsaSignature="MD4CHQCaiXytDGM75Zs7wagjea/dpHT+Ng+kdQMJ0Vr+Ah0AhexPdB7jUQ0wKkXoZ2hYd4dC8ikYfii/hwvRjg==" length="23040555" type="application/octet-stream" />
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.2%2B3/YorbaPOS-1.0.2.3-Setup.exe" sparkle:version="1.0.2.3" sparkle:os="windows" sparkle:dsaSignature="MD0CHQCnInH1SKbD45akdk9pkJFtHSgrlURUjBeu5pbqAhxHxEuZR0QfWIBhswFKo6HadXaxQOKAGP4ogvSx" length="23096398" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
