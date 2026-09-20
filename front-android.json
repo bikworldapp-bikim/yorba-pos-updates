@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_front",
-  "versionName": "1.0.1",
-  "versionCode": 3,
+  "versionName": "1.0.2",
+  "versionCode": 4,
   "size": 61511840,
-  "sha256": "2e8863d818c44c5e61a842ed8e6ce46b964ffe92b684c030aca89fcb95332391",
-  "notes": "프론트앱 1.0.1 업데이트\n- 새 버전을 자동으로 확인합니다.\n- 메인 화면 상단에서 업데이트 상태를 확인하고 수동으로 설치할 수 있습니다.\n- 업데이트 설명을 한국어로 표시합니다.\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/front-android-v1.0.1%2B3/YorbaFront-1.0.1-3.apk"
+  "sha256": "de5bf687a0b58526020e9dac0ea6ad0d3b2d79973f0e89a6647e3a217806a8e6",
+  "notes": "프론트앱 1.0.2 업데이트\n- QR 코드를 매장별 고객 주문조회 화면으로 연결합니다.\n- Yorba: yorba-cleaners.web.app\n- Lido: lido-cleaners.web.app\n- 로그인 직후, 대기 화면, QR 버튼에 동일하게 적용됩니다.\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/front-android-v1.0.2%2B4/YorbaFront-1.0.2-4.apk"
 }
