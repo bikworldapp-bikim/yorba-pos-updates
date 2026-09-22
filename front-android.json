@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_front",
-  "versionName": "1.0.2",
-  "versionCode": 4,
-  "size": 61511840,
-  "sha256": "de5bf687a0b58526020e9dac0ea6ad0d3b2d79973f0e89a6647e3a217806a8e6",
-  "notes": "프론트앱 1.0.2 업데이트\n- QR 코드를 매장별 고객 주문조회 화면으로 연결합니다.\n- Yorba: yorba-cleaners.web.app\n- Lido: lido-cleaners.web.app\n- 로그인 직후, 대기 화면, QR 버튼에 동일하게 적용됩니다.\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/front-android-v1.0.2%2B4/YorbaFront-1.0.2-4.apk"
+  "versionName": "1.0.3",
+  "versionCode": 5,
+  "size": 63049259,
+  "sha256": "a61f818aae62234d6eb8d070462f9e91ff5afc72f37416125cdc803169b6aa08",
+  "notes": "프론트앱 1.0.3 업데이트\n- 음성 안내 초기화가 로그인 화면 표시를 막지 않도록 수정했습니다.\n- 음성 및 화면 켜짐 설정 실패 시에도 로그인 화면을 유지합니다.\n- Android 음성 엔진 검색 설정을 추가했습니다.\n- Firebase·음성·화면 유지 필수 플러그인을 배포용 의존성으로 이동해 릴리스 앱 시작 오류를 수정했습니다.\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/front-android-v1.0.3%2B5/YorbaFront-1.0.3-5.apk"
 }
