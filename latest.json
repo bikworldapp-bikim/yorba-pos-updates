@@ -1,0 +1,6 @@
+{
+  "tag_name": "v1.0.6+7",
+  "draft": false,
+  "prerelease": false,
+  "body": "Windows POS 1.0.6+7\n\n- Storage-ready SMS is sent immediately when the saved order's due date is today (America/Los_Angeles).\n- Storage-ready and storage-resend SMS share a limit of one message per store, customer and Pacific calendar day. Concurrent requests and scheduled sends use the same server-side guard.\n- Uncertain provider responses remain blocked for the day to prevent duplicate delivery; explicit provider rejections allow retry.\n- Windows update checks use the Windows certificate store and fall back to the signed update feed when the GitHub API is unavailable.\n- Includes the Scheduled message table's Select heading action.\n\nThe app checks for updates automatically; installation starts when staff choose Update after saving their work. Older installations with certificate errors may need this installer once to repair update checking.\n"
+}
