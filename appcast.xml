@@ -3,17 +3,18 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>Windows POS 1.0.3+4</title>
-      <description># Windows POS 1.0.3+4
+      <title>Windows POS 1.0.6+7</title>
+      <description>Windows POS 1.0.6+7
 
-- Scheduled 메시지 목록에서 체크박스 위의 Select 제목을 누르면 현재 매장·날짜 필터에 표시된 메시지를 전체 선택합니다.
-- 전체 선택 상태에서 Select를 다시 누르면 선택을 해제합니다.
-- 발송 처리 중인 메시지는 전체 선택 대상에서 제외합니다.
-- 기존 전체 선택 체크박스와 동일한 선택 동작을 사용합니다.
+- Storage-ready SMS is sent immediately when the saved order's due date is today (America/Los_Angeles).
+- Storage-ready and storage-resend SMS share a limit of one message per store, customer and Pacific calendar day. Concurrent requests and scheduled sends use the same server-side guard.
+- Uncertain provider responses remain blocked for the day to prevent duplicate delivery; explicit provider rejections allow retry.
+- Windows update checks use the Windows certificate store and fall back to the signed update feed when the GitHub API is unavailable.
+- Includes the Scheduled message table's Select heading action.
 
-주문 저장·결제·인쇄를 마친 뒤 업데이트를 진행해 주세요.
+The app checks for updates automatically; installation starts when staff choose Update after saving their work. Older installations with certificate errors may need this installer once to repair update checking.
 </description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.3%2B4/YorbaPOS-1.0.3.4-Setup.exe" sparkle:version="1.0.3.4" sparkle:os="windows" sparkle:dsaSignature="MDsCGyUxLFhxltCDrHwKraq3/XeRAF2+DPq8zrkK2AIcO7RNqTsAO/rH59sFXVck76y4zUqHkiwfckPfvQ==" length="23108458" type="application/octet-stream" />
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.6%2B7/YorbaPOS-1.0.6.7-Setup.exe" sparkle:version="1.0.6.7" sparkle:os="windows" sparkle:dsaSignature="MD0CHQCsZFjtObwo/KpMHrQvmVa8Ml7Il5WMjzIwuS31AhwLPr7H1qgjbb418UfmAto+io77afnPSRXwTX5Z" length="23174511" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
