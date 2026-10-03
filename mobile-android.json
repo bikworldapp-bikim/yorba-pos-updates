@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_pos",
-  "versionName": "1.0.5",
-  "versionCode": 6,
-  "size": 148956992,
-  "sha256": "4d9eb44caecae3bd9b99030f615581d30531254a39a4faefc2ee8523a54a7e47",
-  "notes": "모바일 POS 1.0.5 업데이트\n- 드롭오프에서 아이템 이름 영역을 누를 때만 아이템 변경창을 열고, 주변 공백을 누르면 해당 아이템만 선택합니다.\n- 드롭오프 탭 줄의 왼쪽 시작 여백을 제거하고 업차지 아이콘을 $로 변경했습니다.\n- 카운팅 Workflow Target Day의 기본값을 오늘로 변경하고, 날짜 선택 목록은 연도 없이 월-일과 요일로 표시합니다.\n- 카운팅 화면의 Save 왼쪽에 Load 버튼을 추가했습니다. 워크플로우 목록은 Load를 눌러 조회하며 날짜 변경이나 화면 복귀 시 자동 조회하지 않습니다.\n- 아직 불러오지 않은 빈 목록이나 갱신이 필요한 목록으로 일정을 덮어쓰지 않도록 Save 조건을 보완했습니다.\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.5%2B6/YorbaMobile-1.0.5-6.apk"
+  "versionName": "1.0.6",
+  "versionCode": 7,
+  "size": 148940608,
+  "sha256": "69a8251bd8b4dda529ac187054be0152469ca796e05e7a2f6da7d847ca0fe1e6",
+  "notes": "모바일 POS 1.0.6 업데이트\n- 카운팅 화면 Load 버튼의 모서리 라운드를 Save 버튼과 동일하게 맞췄습니다.\n- 써머리 상세내역에서 주문번호를 고객 이름 윗줄로 옮기고 글씨 크기를 고객 이름과 동일하게 키웠습니다.\n- Intake, Pickup, Cash-Out Summary List를 전체 화면으로 변경했습니다. 상단 닫기 버튼과 화면 안전 영역을 적용했습니다.\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.6%2B7/YorbaMobile-1.0.6-7.apk"
 }
