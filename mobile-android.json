@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_pos",
-  "versionName": "1.0.2",
-  "versionCode": 3,
-  "size": 148907752,
-  "sha256": "b3c7f5a84d9dc11b2f3645ae41165e3cd957552e9a6e16a0ba90844068365ae0",
-  "notes": "모바일 POS 1.0.2 업데이트\n- 보관 화면에서 주문 동영상을 녹화하거나 휴대폰·저장된 주문 영상에서 선택해 업로드할 수 있습니다.\n- SMS 대기 화면의 새 동영상 첨부는 고객 주문조회에 저장되며, 문자에는 별도 동영상 링크를 추가하지 않습니다.\n- 고객은 Flutter 및 React 주문조회에서 사진과 동영상을 보고 다운로드할 수 있으며 다운로드 기한도 확인할 수 있습니다.\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.2%2B3/YorbaMobile-1.0.2-3.apk"
+  "versionName": "1.0.3",
+  "versionCode": 4,
+  "size": 148940608,
+  "sha256": "fb366238d474ad4ff080a3bca35955d517af67f54671944a41ce99fddee2d873",
+  "notes": "모바일 POS 1.0.3 업데이트\n- 촬영 화면에서 주문번호 옆 수정 버튼으로 드롭오프를 열고, 수정·저장 후 촬영 화면으로 돌아올 수 있습니다.\n- Capture & Find 앱바의 캡쳐 버튼은 기존 주문번호와 추가 촬영 상태를 초기화합니다.\n- 스토어 선택 줄에 현재 검색 조건의 미업로드 사진만 업로드하는 버튼을 추가했습니다.\n- 드롭오프에서 아이템 이름을 누르면 다른 아이템으로 변경하고, 연필 아이콘으로 이름만 수정할 수 있습니다.\n- 아이템 변경 시 수량·서비스 종류·수선 내역을 유지하고 일반 추가요금을 새 사이즈에 맞춰 계산합니다.\n- Press Only 가격이 없거나 0이면 일반 가격의 80%를 적용합니다.\n- 업차지·컬러·수선 선택창에 키워드 검색을 추가했습니다.\n- 서비스 종류 아이콘을 하나로 묶고 선택 상태를 배경색과 체크로 표시합니다.\n- Final Price 주문은 상단 색상과 FINAL 배지, 하단 합계 강조로 쉽게 확인할 수 있습니다.\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.3%2B4/YorbaMobile-1.0.3-4.apk"
 }
