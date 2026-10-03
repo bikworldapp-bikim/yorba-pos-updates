@@ -1,6 +1,6 @@
 {
-  "tag_name": "v1.0.7+8",
+  "tag_name": "v1.0.8+9",
   "draft": false,
   "prerelease": false,
-  "body": "Windows POS 1.0.7+8\n\n- Detect concurrent order edits and prevent stale saves from overwriting changes made on another device.\n- Save changed order fields only and preserve the latest server payment total when recalculating balance.\n- Offer Reload after a save conflict while keeping unsaved input until reload is selected.\n- Includes the working counting screen improvements for order-entry error feedback and duplicate-submit protection.\n\nPair with Mobile Android 1.0.7+8. Cross-device physical-device acceptance testing is still pending; automated regression tests have passed.\n"
+  "body": "Windows POS 1.0.8+9 업데이트\n- ReadyPickup 판정 기준을 통일했습니다. 보관 완료 주문이 있으면 Yes, 세탁 중 주문만 있으면 Blue, 남은 주문이 없으면 No입니다.\n- 취소 및 픽업 완료 주문을 계산에서 제외하며 In Cleaning을 세탁 중으로 처리합니다.\n- 접수, 보관·해제, 픽업, 취소·해제, 삭제 및 배달 완료·복원에 따른 고객 상태는 서버에서 통합 관리합니다.\n- 앱의 고객 전체 주문 재조회와 직접 상태 저장을 제거했습니다. 고객 정보와 픽업 목록은 공유된 고객 변경 동기화로 갱신됩니다.\n- 중복되거나 순서가 뒤바뀐 변경 이벤트 및 구버전 앱의 상태 덮어쓰기를 서버에서 처리합니다.\n"
 }
