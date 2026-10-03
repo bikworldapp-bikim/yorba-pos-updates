@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_pos",
-  "versionName": "1.0.6",
-  "versionCode": 7,
-  "size": 148940608,
-  "sha256": "69a8251bd8b4dda529ac187054be0152469ca796e05e7a2f6da7d847ca0fe1e6",
-  "notes": "모바일 POS 1.0.6 업데이트\n- 카운팅 화면 Load 버튼의 모서리 라운드를 Save 버튼과 동일하게 맞췄습니다.\n- 써머리 상세내역에서 주문번호를 고객 이름 윗줄로 옮기고 글씨 크기를 고객 이름과 동일하게 키웠습니다.\n- Intake, Pickup, Cash-Out Summary List를 전체 화면으로 변경했습니다. 상단 닫기 버튼과 화면 안전 영역을 적용했습니다.\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.6%2B7/YorbaMobile-1.0.6-7.apk"
+  "versionName": "1.0.7",
+  "versionCode": 8,
+  "size": 149039920,
+  "sha256": "c3b9177f69775c393dcf461cef61dae5f85c0fda38317d7b5f8dae3304ae7c77",
+  "notes": "모바일 POS 1.0.7+8 업데이트\n- 다른 기기에서 수정된 주문을 감지하고 저장을 차단하여 덮어쓰기를 방지합니다.\n- 변경한 주문 항목만 저장하며 서버의 최신 결제액을 보존합니다.\n- 결제 추가·삭제, 잔액 및 스토어 크레딧 변경을 하나의 트랜잭션으로 처리합니다.\n- 결제 재시도 중복 처리를 방지하고 POS 동기화 날짜를 갱신합니다.\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.7%2B8/YorbaMobile-1.0.7-8.apk"
 }
