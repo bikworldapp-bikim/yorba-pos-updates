@@ -3,18 +3,17 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>Windows POS 1.0.6+7</title>
-      <description>Windows POS 1.0.6+7
+      <title>Windows POS 1.0.7+8</title>
+      <description>Windows POS 1.0.7+8
 
-- Storage-ready SMS is sent immediately when the saved order's due date is today (America/Los_Angeles).
-- Storage-ready and storage-resend SMS share a limit of one message per store, customer and Pacific calendar day. Concurrent requests and scheduled sends use the same server-side guard.
-- Uncertain provider responses remain blocked for the day to prevent duplicate delivery; explicit provider rejections allow retry.
-- Windows update checks use the Windows certificate store and fall back to the signed update feed when the GitHub API is unavailable.
-- Includes the Scheduled message table's Select heading action.
+- Detect concurrent order edits and prevent stale saves from overwriting changes made on another device.
+- Save changed order fields only and preserve the latest server payment total when recalculating balance.
+- Offer Reload after a save conflict while keeping unsaved input until reload is selected.
+- Includes the working counting screen improvements for order-entry error feedback and duplicate-submit protection.
 
-The app checks for updates automatically; installation starts when staff choose Update after saving their work. Older installations with certificate errors may need this installer once to repair update checking.
+Pair with Mobile Android 1.0.7+8. Cross-device physical-device acceptance testing is still pending; automated regression tests have passed.
 </description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.6%2B7/YorbaPOS-1.0.6.7-Setup.exe" sparkle:version="1.0.6.7" sparkle:os="windows" sparkle:dsaSignature="MD0CHQCsZFjtObwo/KpMHrQvmVa8Ml7Il5WMjzIwuS31AhwLPr7H1qgjbb418UfmAto+io77afnPSRXwTX5Z" length="23174511" type="application/octet-stream" />
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.7%2B8/YorbaPOS-1.0.7.8-Setup.exe" sparkle:version="1.0.7.8" sparkle:os="windows" sparkle:dsaSignature="MD0CHBshslc3mvm6KEApe4ZpxITG9GproeBruGE4RS0CHQCUo267W4LhY4MbH/DWOrTiVO3Dhz+Zuj2eb3Do" length="23182051" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
