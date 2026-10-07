@@ -3,15 +3,15 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>Windows POS 1.0.8+9</title>
-      <description>Windows POS 1.0.8+9 업데이트
-- ReadyPickup 판정 기준을 통일했습니다. 보관 완료 주문이 있으면 Yes, 세탁 중 주문만 있으면 Blue, 남은 주문이 없으면 No입니다.
-- 취소 및 픽업 완료 주문을 계산에서 제외하며 In Cleaning을 세탁 중으로 처리합니다.
-- 접수, 보관·해제, 픽업, 취소·해제, 삭제 및 배달 완료·복원에 따른 고객 상태는 서버에서 통합 관리합니다.
-- 앱의 고객 전체 주문 재조회와 직접 상태 저장을 제거했습니다. 고객 정보와 픽업 목록은 공유된 고객 변경 동기화로 갱신됩니다.
-- 중복되거나 순서가 뒤바뀐 변경 이벤트 및 구버전 앱의 상태 덮어쓰기를 서버에서 처리합니다.
+      <title>Windows POS 1.0.9+10</title>
+      <description>Windows POS 1.0.9+10 업데이트
+
+- 현재 매장의 내일 작업내역이 등록되지 않으면 17시 이후 메인 화면의 작업내역 버튼이 주황색으로 천천히 깜빡입니다.
+- 오늘 또는 내일이 토요일·일요일·앱에 등록된 공휴일이면 알림을 표시하지 않습니다.
+- 작업내역을 저장하면 깜빡임이 멈추며, 알림 버튼을 누르면 내일 날짜의 작업내역 화면이 열립니다.
+- 연결 문제로 등록 여부를 확인하지 못한 경우에는 미등록으로 판단하지 않습니다.
 </description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.8%2B9/YorbaPOS-1.0.8.9-Setup.exe" sparkle:version="1.0.8.9" sparkle:os="windows" sparkle:dsaSignature="MDwCHAFoyP06bsZFgnZTrBxShg5E3cKEXee45FnxXqYCHARkSjZJpi+xR4jsoTnl/7/L083jKTt0m5T9sWU=" length="23179949" type="application/octet-stream" />
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.9%2B10/YorbaPOS-1.0.9.10-Setup.exe" sparkle:version="1.0.9.10" sparkle:os="windows" sparkle:dsaSignature="MD0CHC9mcsJkvt+ug7gdBqJqSEKFhvsKnTYNc7tunQ8CHQC7Gmy0E99TiSvwhDcBgaWB5s0jMgnNOnOPR9Md" length="23187143" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
