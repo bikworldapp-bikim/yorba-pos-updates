@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_pos",
-  "versionName": "1.0.10",
-  "versionCode": 11,
-  "size": 149039920,
-  "sha256": "f74d10a466bbef28f4242b137dbf13f517832d6918d5b3b571a68c420a1500f5",
-  "notes": "모바일 POS 1.0.10+11 업데이트\n- 드롭오프 카트의 업차지는 노랑, 일반 옵션은 하늘색, 컬러 항목은 보라색으로 구분합니다.\n- 컬러 항목에는 인식 가능한 실제 색상 표시를 추가했습니다.\n- 항목명과 금액에 동일한 색상을 적용하고 기존 편집 및 수량 조절 기능을 유지했습니다.\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.10%2B11/YorbaMobile-1.0.10-11.apk"
+  "versionName": "1.0.11",
+  "versionCode": 12,
+  "size": 149039916,
+  "sha256": "84114cdaa2217453b90a53e7b2e76412d781194295a340cbcba33df208df928a",
+  "notes": "모바일 POS 1.0.11+12 업데이트\n- 드롭오프 카트에서 수선 항목명과 금액을 연한 주황색으로 표시하여 노란색 업차지와 구분합니다.\n- Capture & Find 촬영 화면의 드롭오프 진입 버튼을 위로 이동하여 바코드 스캔 버튼과의 중심 간 거리를 2배로 늘렸습니다.\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.11%2B12/YorbaMobile-1.0.11-12.apk"
 }
