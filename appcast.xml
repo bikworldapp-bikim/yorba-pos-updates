@@ -3,16 +3,20 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>Windows POS 1.0.9+14</title>
-      <description>Windows POS 1.0.9+14 업데이트
+      <title>Windows POS 1.0.9+15</title>
+      <description>Windows POS 1.0.9+15 업데이트
 
-- 옷을 추가하면 해당 옷의 수량 입력 칸을 자동 선택합니다.
-- 업차지·옵션·수선을 추가하면 해당 옵션의 수량 입력 칸을 자동 선택합니다.
-- 같은 항목을 다시 추가해도 현재 수량을 전체 선택하여 바로 숫자를 입력할 수 있습니다.
-- Enter 또는 다른 곳 클릭으로 적용하며, 기존 옵션 수량 상한과 금액 재계산을 유지합니다.
-- 표시 버전 1.0.9를 유지하고 자동 업데이트 빌드 번호를 14로 올렸습니다.
+- 같은 옷 추가 시 선택한 동일 품목 줄을 우선 사용하고, 없으면 마지막 동일 품목 줄에 합산합니다.
+- 수량 증감 버튼에 원형 테두리와 여백을 추가했습니다.
+- 서머타임 전환 시 듀데이 달력 날짜가 중복되거나 요일이 밀리는 문제를 수정했습니다.
+- 수선·업차지 팝업 추가 및 반복 추가 시 현재 주문 합계를 갱신하도록 수정했습니다.
+- 소계와 합계가 같으면 Total만 표시합니다.
+- 인쇄 설정을 매장별로 5분간 캐시하고 독립 조회를 병렬 실행합니다. 이 PC에서 설정을 변경하면 즉시 캐시를 무효화합니다.
+- 저장 직후 인쇄는 저장 완료 데이터를 사용하여 주문 재조회를 줄입니다. 변경 없는 재인쇄는 최신 주문을 조회합니다.
+- 창 위치·크기 자동 저장을 제거했습니다. 유틸리티의 현재 창 위치·크기 저장 버튼으로 다음 실행에 사용할 상태를 저장합니다.
+- 표시 버전 1.0.9를 유지하고 자동 업데이트 빌드 번호를 15로 올렸습니다.
 </description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.9%2B14/YorbaPOS-1.0.9.14-Setup.exe" sparkle:version="1.0.9.14" sparkle:os="windows" sparkle:dsaSignature="MDwCHAn6pCBTjcGvK32lflE69B4TweS2OTHU6Yp/fYoCHCSelNPl7MhBVwMCyEtzNui36JSZEUjZ2gTsDc8=" length="23205478" type="application/octet-stream" />
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.9%2B15/YorbaPOS-1.0.9.15-Setup.exe" sparkle:version="1.0.9.15" sparkle:os="windows" sparkle:dsaSignature="MDwCHHefI07YAatp55An1bGtxmSvNFL9w4ExVo106DACHDheHReV4FADrKW9Cg6MJdedNgWoDjfYbir8ia0=" length="23207651" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
