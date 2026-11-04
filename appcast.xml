@@ -3,18 +3,17 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>Windows POS 1.0.9+17</title>
-      <description># Windows POS 1.0.9+17
+      <title>Windows POS 1.0.9+18</title>
+      <description># Windows POS 1.0.9+18
 
-- Choose cart service using a radio dialog with Apply and Cancel.
-- Add Laundry Only at 100% of the Base unit price multiplied by quantity; upcharges and alterations are added separately.
-- Preserve the Base price across service changes and order reloads.
-- Keep different services on separate cart lines; preserve service pricing when replacing a garment.
-- Print Laundry Only on customer and store invoices and preserve the service in POS delivery projections.
-
-Validation: 19 focused tests passed; static analysis found no errors; Windows release build and local installation verified.
+- Add Upcharge Prices below Price Breakdown on the drop-off screen.
+- Remember the checkbox locally on this PC across application restarts.
+- Checked: print general store-copy upcharges on separate lines with unit prices and quantities.
+- Unchecked: combine general upcharges with commas and omit their prices.
+- Preserve existing detailed store-copy output for parenthesized options, Sample/Belt/Starch exceptions, and repairs.
+- Customer-copy option prices remain hidden; existing customer totals and price-breakdown rules are unchanged.
 </description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.9%2B17/YorbaPOS-1.0.9.17-Setup.exe" sparkle:version="1.0.9.17" sparkle:os="windows" sparkle:dsaSignature="MD4CHQDBAk0so8rXI8UnLF6vNgOsCZ9Wu1BXpMI/VJeeAh0Akf7F6f/bxDWDwBQO37XNF1ccOJ/qLcBC9XthOg==" length="23208749" type="application/octet-stream" />
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.9%2B18/YorbaPOS-1.0.9.18-Setup.exe" sparkle:version="1.0.9.18" sparkle:os="windows" sparkle:dsaSignature="MD0CHDkWPSy6K2BlBmr3Y4Un8TuRALH2caIQnoVaYkACHQDCWUWivHar/maRUkY+X/R3fKn6f87e7v/cM2dv" length="23209390" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
