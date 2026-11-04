@@ -1,6 +1,6 @@
 {
-  "tag_name": "v1.0.9+18",
+  "tag_name": "v1.0.9+19",
   "draft": false,
   "prerelease": false,
-  "body": "# Windows POS 1.0.9+18\n\n- Add Upcharge Prices below Price Breakdown on the drop-off screen.\n- Remember the checkbox locally on this PC across application restarts.\n- Checked: print general store-copy upcharges on separate lines with unit prices and quantities.\n- Unchecked: combine general upcharges with commas and omit their prices.\n- Preserve existing detailed store-copy output for parenthesized options, Sample/Belt/Starch exceptions, and repairs.\n- Customer-copy option prices remain hidden; existing customer totals and price-breakdown rules are unchanged.\n"
+  "body": "# Windows POS 1.0.9+19\n\n- Parenthesized store-copy upcharges now print prices only when Upcharge Prices is checked.\n- When unchecked, parenthesized upcharge names and quantities remain on separate lines without prices, including (Belt) and (Starch).\n- Preserve repair printing, customer-copy behavior, and the locally remembered checkbox setting.\n"
 }
