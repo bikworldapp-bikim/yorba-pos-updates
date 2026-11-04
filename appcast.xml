@@ -3,17 +3,14 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>Windows POS 1.0.9+18</title>
-      <description># Windows POS 1.0.9+18
+      <title>Windows POS 1.0.9+19</title>
+      <description># Windows POS 1.0.9+19
 
-- Add Upcharge Prices below Price Breakdown on the drop-off screen.
-- Remember the checkbox locally on this PC across application restarts.
-- Checked: print general store-copy upcharges on separate lines with unit prices and quantities.
-- Unchecked: combine general upcharges with commas and omit their prices.
-- Preserve existing detailed store-copy output for parenthesized options, Sample/Belt/Starch exceptions, and repairs.
-- Customer-copy option prices remain hidden; existing customer totals and price-breakdown rules are unchanged.
+- Parenthesized store-copy upcharges now print prices only when Upcharge Prices is checked.
+- When unchecked, parenthesized upcharge names and quantities remain on separate lines without prices, including (Belt) and (Starch).
+- Preserve repair printing, customer-copy behavior, and the locally remembered checkbox setting.
 </description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.9%2B18/YorbaPOS-1.0.9.18-Setup.exe" sparkle:version="1.0.9.18" sparkle:os="windows" sparkle:dsaSignature="MD0CHDkWPSy6K2BlBmr3Y4Un8TuRALH2caIQnoVaYkACHQDCWUWivHar/maRUkY+X/R3fKn6f87e7v/cM2dv" length="23209390" type="application/octet-stream" />
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.9%2B19/YorbaPOS-1.0.9.19-Setup.exe" sparkle:version="1.0.9.19" sparkle:os="windows" sparkle:dsaSignature="MD0CHEJ8X51pYErRKVZCzy0+C4uRncexQEnzFILvA2ECHQDK34/7u3XUI3Ssmn9EfVyVBNhIitcHFq1Idjvj" length="23210652" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
