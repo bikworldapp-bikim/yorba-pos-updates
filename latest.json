@@ -1,6 +1,6 @@
 {
-  "tag_name": "v1.0.9+16",
+  "tag_name": "v1.0.9+17",
   "draft": false,
   "prerelease": false,
-  "body": "# Windows POS 1.0.9+16\n\n- Remove Items Subtotal from the drop-off summary. Keep Total and the existing minimum-order adjustment controls.\n- Existing order totals, discounts, sales, and balances are unchanged.\n"
+  "body": "# Windows POS 1.0.9+17\n\n- Choose cart service using a radio dialog with Apply and Cancel.\n- Add Laundry Only at 100% of the Base unit price multiplied by quantity; upcharges and alterations are added separately.\n- Preserve the Base price across service changes and order reloads.\n- Keep different services on separate cart lines; preserve service pricing when replacing a garment.\n- Print Laundry Only on customer and store invoices and preserve the service in POS delivery projections.\n\nValidation: 19 focused tests passed; static analysis found no errors; Windows release build and local installation verified.\n"
 }
