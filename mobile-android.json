@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_pos",
-  "versionName": "1.0.21",
-  "versionCode": 23,
-  "size": 149777788,
-  "sha256": "dd1ae9f1550355af8eb273b438c038d1a5cb6fbe257a9562e0438befbe7221d5",
-  "notes": "영수증 재촬영 금액 중복 수정\n- 같은 주문과 기준날짜로 촬영 화면에 다시 들어오면 기존 영수증을 이어서 촬영\n- 사진을 여러 장 추가해도 결제금액은 한 번만 유지\n- 업로드한 영수증에도 추가 사진을 업로드 가능\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.21%2B23/YorbaMobile-1.0.21-23.apk"
+  "versionName": "1.0.22",
+  "versionCode": 24,
+  "size": 149777792,
+  "sha256": "0b55a8a88c6c725bbbb3d7ecd8dd0ba06857166d2325588870d5cd568430a125",
+  "notes": "모바일 매장 접근 및 드롭오프 화면 개선\n- Lido는 Summary, Capture & Find, Receipt Capture & Find만 표시\n- 관리자도 Lido 주문번호를 통해 드롭오프에 진입 불가\n- 드롭오프 카트 이름 표시 폭 확대 및 Total 문구 제거\n- 하단에 현재 수량·금액과 수정 전 수량·금액을 괄호로 비교 표시\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.22%2B24/YorbaMobile-1.0.22-24.apk"
 }
