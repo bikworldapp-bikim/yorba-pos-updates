@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_pos",
-  "versionName": "1.0.14",
-  "versionCode": 16,
-  "size": 149351568,
-  "sha256": "f427ec8d517024ae6d3eef6b6985bef62f3ed0bb2e4cbec0cc2c339dc64cbaee",
-  "notes": "영수증 촬영 화면 개선\n- Capture & Find와 같은 전체 화면 카메라 프리뷰 및 플로팅 버튼 배치\n- 기존 주문번호 입력창과 바코드 스캔 화면 사용, 주문번호 뒤 3자리 자동완성\n- 흑백/컬러·결제방법·금액을 작은 아이콘으로 조작\n- 관리 화면 결제방법 필터를 아이콘 한 줄로 표시\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.14%2B16/YorbaMobile-1.0.14-16.apk"
+  "versionName": "1.0.15",
+  "versionCode": 17,
+  "size": 149531840,
+  "sha256": "ce4b30e41671ae7024f5be499cb462195b767f8c1390ae7c760f9dbe7cccb7d4",
+  "notes": "영수증 촬영 및 관리 개선\n- 촬영 즉시 저장, 첫 사진에서 주문 잔액·신용카드 기본 결제 입력\n- 후속 사진은 같은 묶음에 추가, 금액·결제방법 수정 지원\n- 날짜별 픽업 주문과 영수증 매칭, 사진 수·금액·결제 아이콘 및 누락 표시\n- 업로드 진행률과 사진 품질 선택 추가\n- Capture & Find 뷰어의 줌·팬 재사용\n- 두 촬영 화면의 바코드 버튼을 왼쪽에 정렬\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.15%2B17/YorbaMobile-1.0.15-17.apk"
 }
