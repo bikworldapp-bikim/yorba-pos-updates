@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_pos",
-  "versionName": "1.0.17",
-  "versionCode": 19,
-  "size": 149728640,
-  "sha256": "76a200bcfc70eec8169da17ba10a3d1d15b93775c2aa4d0d5ce3c325fbe7bda1",
-  "notes": "카드 단말기 일일 배치 정산 영수증\n- 영수증 관리 상단 Card batches 메뉴 추가\n- 영업일 선택 후 기존 전체화면 카메라로 촬영, 여러 장 저장\n- 정산 총액과 배치번호·단말기·거래 건수 기록\n- 같은 영업일 여러 배치를 각각 보관\n- 주문 영수증과 별도 관리, 주문 매출에 합산하지 않음\n- 기존 업로드·사진 삭제·Windows 백업 방식 재사용\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.17%2B19/YorbaMobile-1.0.17-19.apk"
+  "versionName": "1.0.19",
+  "versionCode": 21,
+  "size": 149745024,
+  "sha256": "d0fa69c20ecf8b11c403432356a456219f4f8ccdaf90a1abb7b662de40454a8d",
+  "notes": "영수증 관리 개선\n- 주문번호 옆 고객 이름 표시: 최대 12자, 좁은 화면 말줄임\n- 주문번호 검색은 날짜 제한 없이 조회, 지우기 버튼으로 날짜 목록 복귀\n- 주문을 길게 눌러 여러 주문 선택 후 기준날짜 일괄 변경\n- 촬영 우측 주문번호 위 기준날짜 선택, 촬영화면 재진입 시 오늘로 초기화\n- Paid 기본금액, 금액 지우기, 7500 → 75.00 입력\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.19%2B21/YorbaMobile-1.0.19-21.apk"
 }
