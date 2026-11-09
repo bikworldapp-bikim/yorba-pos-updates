@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_pos",
-  "versionName": "1.0.22",
-  "versionCode": 24,
-  "size": 149777792,
-  "sha256": "0b55a8a88c6c725bbbb3d7ecd8dd0ba06857166d2325588870d5cd568430a125",
-  "notes": "모바일 매장 접근 및 드롭오프 화면 개선\n- Lido는 Summary, Capture & Find, Receipt Capture & Find만 표시\n- 관리자도 Lido 주문번호를 통해 드롭오프에 진입 불가\n- 드롭오프 카트 이름 표시 폭 확대 및 Total 문구 제거\n- 하단에 현재 수량·금액과 수정 전 수량·금액을 괄호로 비교 표시\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.22%2B24/YorbaMobile-1.0.22-24.apk"
+  "versionName": "1.0.23",
+  "versionCode": 25,
+  "size": 149744992,
+  "sha256": "c5af852fcf4a8f8be0f688bc812e351964311948e9b26c27c9b724b45292fd01",
+  "notes": "촬영 버튼 배치 개선\n- Capture & Find: 촬영 버튼 왼쪽 AI 검색 버튼을 바코드 스캔으로 교체\n- 영수증 촬영: 왼쪽 바코드 스캔, 가운데 촬영, 오른쪽 사진 보기\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.23%2B25/YorbaMobile-1.0.23-25.apk"
 }
