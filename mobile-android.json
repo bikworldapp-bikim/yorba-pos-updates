@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_pos",
-  "versionName": "1.0.20",
-  "versionCode": 22,
-  "size": 149745024,
-  "sha256": "40a12b90466a7d37651f63a4abb3a147bb763b348260248acada148e51f688e5",
-  "notes": "영수증 촬영·관리 개선\n- 바코드 스캔·주문번호 입력 즉시 고객 이름과 Paid 기본금액 표시\n- 현금·기타는 사진 없이 주문번호·날짜·금액만 저장 및 업로드 가능\n- 영수증 합계와 주문 Paid가 다르면 금액을 빨간색으로 표시\n- 관리화면 결제 아이콘 색상 구분: 카드 파랑, 현금 초록, 수표 주황, 기타 보라\n- 입력 금액은 영수증 자료에만 저장하며 주문 Paid에는 영향 없음\n- 관리 목록에서 사진이 없으면 사진 아이콘과 개수 숨김\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.20%2B22/YorbaMobile-1.0.20-22.apk"
+  "versionName": "1.0.21",
+  "versionCode": 23,
+  "size": 149777788,
+  "sha256": "dd1ae9f1550355af8eb273b438c038d1a5cb6fbe257a9562e0438befbe7221d5",
+  "notes": "영수증 재촬영 금액 중복 수정\n- 같은 주문과 기준날짜로 촬영 화면에 다시 들어오면 기존 영수증을 이어서 촬영\n- 사진을 여러 장 추가해도 결제금액은 한 번만 유지\n- 업로드한 영수증에도 추가 사진을 업로드 가능\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.21%2B23/YorbaMobile-1.0.21-23.apk"
 }
