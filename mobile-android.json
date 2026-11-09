@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_pos",
-  "versionName": "1.0.19",
-  "versionCode": 21,
+  "versionName": "1.0.20",
+  "versionCode": 22,
   "size": 149745024,
-  "sha256": "d0fa69c20ecf8b11c403432356a456219f4f8ccdaf90a1abb7b662de40454a8d",
-  "notes": "영수증 관리 개선\n- 주문번호 옆 고객 이름 표시: 최대 12자, 좁은 화면 말줄임\n- 주문번호 검색은 날짜 제한 없이 조회, 지우기 버튼으로 날짜 목록 복귀\n- 주문을 길게 눌러 여러 주문 선택 후 기준날짜 일괄 변경\n- 촬영 우측 주문번호 위 기준날짜 선택, 촬영화면 재진입 시 오늘로 초기화\n- Paid 기본금액, 금액 지우기, 7500 → 75.00 입력\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.19%2B21/YorbaMobile-1.0.19-21.apk"
+  "sha256": "40a12b90466a7d37651f63a4abb3a147bb763b348260248acada148e51f688e5",
+  "notes": "영수증 촬영·관리 개선\n- 바코드 스캔·주문번호 입력 즉시 고객 이름과 Paid 기본금액 표시\n- 현금·기타는 사진 없이 주문번호·날짜·금액만 저장 및 업로드 가능\n- 영수증 합계와 주문 Paid가 다르면 금액을 빨간색으로 표시\n- 관리화면 결제 아이콘 색상 구분: 카드 파랑, 현금 초록, 수표 주황, 기타 보라\n- 입력 금액은 영수증 자료에만 저장하며 주문 Paid에는 영향 없음\n- 관리 목록에서 사진이 없으면 사진 아이콘과 개수 숨김\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.20%2B22/YorbaMobile-1.0.20-22.apk"
 }
