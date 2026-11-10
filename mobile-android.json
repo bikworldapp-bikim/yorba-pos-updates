@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_pos",
-  "versionName": "1.0.26",
-  "versionCode": 28,
-  "size": 149794140,
-  "sha256": "0edd55b9c79d4731e3565506d20f8b3c35db0ec785f85dfc02e1d5c893d008e8",
-  "notes": "분할 결제 관리 화면 수정\n- 관리 목록에서 여는 결제 입력창도 분할 결제 탭으로 통일\n- 카드·현금·체크·기타 탭별 금액을 유지하고 함께 저장\n- 새 결제 방법에는 POS Paid에서 다른 입력액과 기존 기록을 뺀 잔액 자동 표시\n- 기존 기록을 덮어쓰지 않고 새 결제 방법을 별도 기록으로 추가\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.26%2B28/YorbaMobile-1.0.26-28.apk"
+  "versionName": "1.0.27",
+  "versionCode": 29,
+  "size": 149794144,
+  "sha256": "65d1145506c406acd12edc2e377bb1f8f388d0c3310323c900d122a0e6ccf9ba",
+  "notes": "모바일 영수증 정보 캐시\n- Firebase에서 읽은 주문·Paid·영수증 등록 정보를 로컬 캐시로 재사용\n- 최근 정보는 즉시 표시하고 새로고침·저장 후 최신 정보로 갱신\n- 서버 연결 실패 시 저장된 정보와 안내 표시\n- 영수증 사진은 다운로드하지 않고 이 휴대폰에 이미 있는 사진만 사용\n- 결제 탭별 금액 보존 및 분할 일괄 저장 유지\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.27%2B29/YorbaMobile-1.0.27-29.apk"
 }
