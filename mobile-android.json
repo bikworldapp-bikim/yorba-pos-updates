@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_pos",
-  "versionName": "1.0.24",
-  "versionCode": 26,
-  "size": 149744988,
-  "sha256": "2cce36a5599bbcfed52a1b3209b0904ca2b8d7e62c4c4cf726b78b90f85663ce",
-  "notes": "분할 결제 및 영수증 관리 개선\n- 현금·카드·체크·기타 결제를 별도 기록으로 추가\n- 다음 결제 입력액은 Paid에서 모든 기존 영수증 금액을 뺀 잔액으로 자동 표시\n- 금액 옆 + 버튼으로 결제 추가, 기존 금액 선택으로 수정\n- 관리 목록은 Paid 일시 최신순으로 표시\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.24%2B26/YorbaMobile-1.0.24-26.apk"
+  "versionName": "1.0.25",
+  "versionCode": 27,
+  "size": 149794144,
+  "sha256": "8d179ca047796ab99034bcf28071ad84298419e08dbab90ccdd1009b2b57b8a7",
+  "notes": "분할 결제 탭 입력 수정\n- 카드·현금·체크·기타 탭을 바꿔도 각 탭의 입력 금액 유지\n- 새 결제 방법 기본값: 메인 POS Paid에서 저장된 금액과 다른 탭 입력 금액을 뺀 잔액\n- 모든 탭의 금액을 한 번에 저장하고 합계·잔액 표시\n- 예: 카드 5.50 입력 후 현금 탭 기본값 65.00 (Paid 70.50)\n- 관리 목록은 메인 POS Paid 일시 최신순 유지\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.25%2B27/YorbaMobile-1.0.25-27.apk"
 }
