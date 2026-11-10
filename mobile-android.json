@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_pos",
-  "versionName": "1.0.27",
-  "versionCode": 29,
-  "size": 149794144,
-  "sha256": "65d1145506c406acd12edc2e377bb1f8f388d0c3310323c900d122a0e6ccf9ba",
-  "notes": "모바일 영수증 정보 캐시\n- Firebase에서 읽은 주문·Paid·영수증 등록 정보를 로컬 캐시로 재사용\n- 최근 정보는 즉시 표시하고 새로고침·저장 후 최신 정보로 갱신\n- 서버 연결 실패 시 저장된 정보와 안내 표시\n- 영수증 사진은 다운로드하지 않고 이 휴대폰에 이미 있는 사진만 사용\n- 결제 탭별 금액 보존 및 분할 일괄 저장 유지\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.27%2B29/YorbaMobile-1.0.27-29.apk"
+  "versionName": "1.0.31",
+  "versionCode": 33,
+  "size": 149941596,
+  "sha256": "e6505cd4e9e6cc956b9981db8d01cf239b22c2a1cac234edd6159d42732d846f",
+  "notes": "영수증 결제 금액 확인 방식 개선\n- 기본 금액은 제안만 하며 ✓ 확인 후 합계와 저장에 반영\n- 결제방법 변경 시 확정된 금액을 제외한 잔액 표시\n- X는 입력칸만 초기화, 기존 확정 금액은 유지\n- 기존 금액 수정은 ✓ 확인 시 교체\n\n삭제된 영수증 사진 개수 수정\n- 삭제 표시를 최신 서버·로컬 기록·캐시보다 우선 적용\n- 삭제된 중복 사진이 목록과 금액 계산에 다시 포함되지 않도록 수정\n- 업로드 완료 기록은 최신 서버 사진 목록 기준으로 표시\n- 아직 업로드하지 않은 사진은 보존\n- 정보 캐시와 휴대폰 내 사진 사용, 분할 결제 탭 유지\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.31%2B33/YorbaMobile-1.0.31-33.apk"
 }
