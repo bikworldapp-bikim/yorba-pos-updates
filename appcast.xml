@@ -3,19 +3,14 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>Windows POS 1.0.22+32</title>
-      <description>Windows POS 1.0.22+32
+      <title>Windows POS 1.0.23+33</title>
+      <description>Windows POS 1.0.23+33
 
-- 영수증 관리: 주문별 사진 조회·삭제, 결제 방법 및 금액 수정, 카드 배치 정산 영수증 지원
-- 클라우드 영수증을 매장별로 로컬 백업하고 로컬 자료를 우선 표시
-- 현금·기타 결제는 사진 없는 금액 기록 지원
-- 메인 픽업 목록에 Paid / Receipt 금액 표시, 불일치 금액은 빨간색 표시
-- 픽업 일시를 MM-DD, HH:mm 형식으로 표시하고 접수 목록의 Due는 유지
-- 영수증 관리 화면 글자 확대와 배치 개선, 금액 불일치 아이콘 테두리 제거
-
-이 PC에서 설치 파일 및 실행 버전 검증 완료.
+- 영수증 관리 목록을 메인 POS의 실제 Paid 일시 기준 최신순으로 표시
+- 분할 결제의 여러 Paid 기록 중 가장 최근 일시를 사용
+- Paid 일시가 없는 항목은 목록 아래에 표시
 </description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.22%2B32/YorbaPOS-1.0.22.32-Setup.exe" sparkle:version="1.0.22.32" sparkle:os="windows" sparkle:dsaSignature="MDwCHDQP4sp6eUBo3Mzd77uO94KTVsMTENm+7DRAXN0CHHxc1QVoZ8K5Rf+LT5p2NFmgGi8XQi4zbb8SGFA=" length="23260735" type="application/octet-stream" />
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.23%2B33/YorbaPOS-1.0.23.33-Setup.exe" sparkle:version="1.0.23.33" sparkle:os="windows" sparkle:dsaSignature="MD0CHHH/OUxDg6JJ6xScaK+KB8xPPFcDUKPbqloKgicCHQCBr/JkyacsmVM1t7bnRtN4MHBgkl/41GP8Oan4" length="23261116" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
