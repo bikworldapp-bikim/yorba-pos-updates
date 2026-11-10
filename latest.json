@@ -1,6 +1,6 @@
 {
-  "tag_name": "v1.0.9+19",
+  "tag_name": "v1.0.22+32",
   "draft": false,
   "prerelease": false,
-  "body": "# Windows POS 1.0.9+19\n\n- Parenthesized store-copy upcharges now print prices only when Upcharge Prices is checked.\n- When unchecked, parenthesized upcharge names and quantities remain on separate lines without prices, including (Belt) and (Starch).\n- Preserve repair printing, customer-copy behavior, and the locally remembered checkbox setting.\n"
+  "body": "Windows POS 1.0.22+32\n\n- 영수증 관리: 주문별 사진 조회·삭제, 결제 방법 및 금액 수정, 카드 배치 정산 영수증 지원\n- 클라우드 영수증을 매장별로 로컬 백업하고 로컬 자료를 우선 표시\n- 현금·기타 결제는 사진 없는 금액 기록 지원\n- 메인 픽업 목록에 Paid / Receipt 금액 표시, 불일치 금액은 빨간색 표시\n- 픽업 일시를 MM-DD, HH:mm 형식으로 표시하고 접수 목록의 Due는 유지\n- 영수증 관리 화면 글자 확대와 배치 개선, 금액 불일치 아이콘 테두리 제거\n\n이 PC에서 설치 파일 및 실행 버전 검증 완료.\n"
 }
