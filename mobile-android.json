@@ -1,9 +1,9 @@
 {
   "appId": "com.example.yorba_cleaners_pos",
-  "versionName": "1.0.23",
-  "versionCode": 25,
-  "size": 149744992,
-  "sha256": "c5af852fcf4a8f8be0f688bc812e351964311948e9b26c27c9b724b45292fd01",
-  "notes": "촬영 버튼 배치 개선\n- Capture & Find: 촬영 버튼 왼쪽 AI 검색 버튼을 바코드 스캔으로 교체\n- 영수증 촬영: 왼쪽 바코드 스캔, 가운데 촬영, 오른쪽 사진 보기\n",
-  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.23%2B25/YorbaMobile-1.0.23-25.apk"
+  "versionName": "1.0.24",
+  "versionCode": 26,
+  "size": 149744988,
+  "sha256": "2cce36a5599bbcfed52a1b3209b0904ca2b8d7e62c4c4cf726b78b90f85663ce",
+  "notes": "분할 결제 및 영수증 관리 개선\n- 현금·카드·체크·기타 결제를 별도 기록으로 추가\n- 다음 결제 입력액은 Paid에서 모든 기존 영수증 금액을 뺀 잔액으로 자동 표시\n- 금액 옆 + 버튼으로 결제 추가, 기존 금액 선택으로 수정\n- 관리 목록은 Paid 일시 최신순으로 표시\n",
+  "apkUrl": "https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/mobile-android-v1.0.24%2B26/YorbaMobile-1.0.24-26.apk"
 }
