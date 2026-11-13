@@ -1,6 +1,6 @@
 {
-  "tag_name": "v1.0.24+34",
+  "tag_name": "v1.0.28+40",
   "draft": false,
   "prerelease": false,
-  "body": "Windows POS 1.0.24+34\n\n- 영수증 관리 목록의 주문번호 오른쪽에 고객 이름 표시\n- 주문·고객 이름·픽업·결제일·영수증 목록을 PC 로컬 백업에서 조회\n- 목록 열기·새로고침 시 서버 재조회 제거; 기존 백그라운드 동기화 유지\n- 메인 POS의 실제 Paid 일시 기준 최신순 정렬 유지\n"
+  "body": "Windows POS 1.0.28+40\n\n- Store Settings에서 Clothes, Upcharges, Alterations 데이터 원본을 PC별로 설정하고 실제 드롭오프 카탈로그에 적용합니다.\n- 설정 원본은 로컬 PC에 저장하며, 주문과 매장 운영 데이터는 로그인한 매장에 계속 저장됩니다.\n"
 }
