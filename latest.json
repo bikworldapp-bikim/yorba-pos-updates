@@ -1,6 +1,6 @@
 {
-  "tag_name": "v1.0.28+40",
+  "tag_name": "v1.0.29+41",
   "draft": false,
   "prerelease": false,
-  "body": "Windows POS 1.0.28+40\n\n- Store Settings에서 Clothes, Upcharges, Alterations 데이터 원본을 PC별로 설정하고 실제 드롭오프 카탈로그에 적용합니다.\n- 설정 원본은 로컬 PC에 저장하며, 주문과 매장 운영 데이터는 로그인한 매장에 계속 저장됩니다.\n"
+  "body": "Windows POS 1.0.29+41\n\n- 드롭오프에서 카트의 옷을 교체하면 업차지 항목과 수량을 유지하고 새 옷의 사이즈별 가격 또는 비율로 업차지 금액을 다시 계산합니다.\n- 수선과 목록에 없는 직접 입력 옵션의 금액은 유지합니다.\n"
 }
