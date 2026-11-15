@@ -3,13 +3,14 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>Windows POS 1.0.29+41</title>
-      <description>Windows POS 1.0.29+41
+      <title>Windows POS 1.0.30+42</title>
+      <description>Windows POS 1.0.30+42
 
-- 드롭오프에서 카트의 옷을 교체하면 업차지 항목과 수량을 유지하고 새 옷의 사이즈별 가격 또는 비율로 업차지 금액을 다시 계산합니다.
-- 수선과 목록에 없는 직접 입력 옵션의 금액은 유지합니다.
+- 옷 종류를 구분하기 쉬운 새 이미지 26개를 추가했습니다. 레터맨 재킷 변형, 베개 커버, 웨딩 보관 박스를 포함합니다.
+- 기존에 같은 이미지를 사용하던 일부 옷 항목을 이름에 맞는 이미지로 표시합니다.
+- 새 이미지와 용량이 큰 기존 이미지를 카드 표시용 크기로 최적화했습니다.
 </description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.29%2B41/YorbaPOS-1.0.29.41-Setup.exe" sparkle:version="1.0.29.41" sparkle:os="windows" sparkle:dsaSignature="MD0CHB3JC4tb7m+e49s8fZbvCFAVR5uD+CQGth0Kc5QCHQCmCq0k2w6ln3BWpJwG5bIA3y/lYxfezMLsD+TQ" length="23279572" type="application/octet-stream" />
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.30%2B42/YorbaPOS-1.0.30.42-Setup.exe" sparkle:version="1.0.30.42" sparkle:os="windows" sparkle:dsaSignature="MD4CHQCHBtyTqg7T8n3uF1K6Oiz1J0sIPMbewnMQgGpCAh0AjcvC46aEKb17b/RY7wkiD3VCDRzlXrcr+C6gyQ==" length="25661223" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
