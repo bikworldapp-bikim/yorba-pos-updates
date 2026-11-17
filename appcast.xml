@@ -3,10 +3,10 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>Windows POS 1.0.33+45</title>
-      <description>Windows POS: customer rankings/search, pickup, Storage/Workflow, sales/payment summaries and clothing/upcharge/alteration catalogs now read local backups. Background synchronization and live payment validation remain enabled. Drop-off clothing cards display long item names on two lines. Historical results depend on the locally synchronized backup data.
+      <title>Windows POS 1.0.34+46</title>
+      <description>Reconcile locally pending orders against confirmed server records after login and when viewing Storage or Pickup. Orders deleted on the server are marked missing in the local backup and excluded from local lists. Existing orders refresh pickup, storage and void status. Original backup content is retained; offline failures and timeouts never mark orders deleted. Repeated checks are throttled.
 </description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.33%2B45/YorbaPOS-1.0.33.45-Setup.exe" sparkle:version="1.0.33.45" sparkle:os="windows" sparkle:dsaSignature="MD0CHCYoCmdmQmwHICne0fi+SVJC0iJC6WSiaTRJwksCHQCLWPUsQbH4C24nsqxAYtI/UxnSekZ2RfgwISqI" length="25682752" type="application/octet-stream" />
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.34%2B46/YorbaPOS-1.0.34.46-Setup.exe" sparkle:version="1.0.34.46" sparkle:os="windows" sparkle:dsaSignature="MDwCHHQaq1/6Ps678HYeshVnVhEhpa7PVTyoshPGpeICHCROVANjlODKoZP9hGoriIlMQTtfGrrO0w6GPDo=" length="25687777" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
