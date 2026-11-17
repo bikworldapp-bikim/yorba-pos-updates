@@ -1,6 +1,6 @@
 {
-  "tag_name": "v1.0.32+44",
+  "tag_name": "v1.0.33+45",
   "draft": false,
   "prerelease": false,
-  "body": "픽업 화면에 Grouped payments 버튼 추가. 현재 고객의 묶음 번호, 연결 주문, 결제 방법 및 주문별 금액과 합계를 조회합니다.\n"
+  "body": "Windows POS: customer rankings/search, pickup, Storage/Workflow, sales/payment summaries and clothing/upcharge/alteration catalogs now read local backups. Background synchronization and live payment validation remain enabled. Drop-off clothing cards display long item names on two lines. Historical results depend on the locally synchronized backup data.\n"
 }
