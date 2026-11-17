@@ -3,15 +3,10 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>Windows POS 1.0.31+43</title>
-      <description>Windows POS 1.0.31+43
-
-- Pickup 화면의 Bulk Payment Processing에서 여러 주문을 결제하면 PG20261116-001 형식의 공통 결제번호를 추가로 기록합니다. 기존 주문별 결제 ID와 금액은 유지됩니다.
-- 묶음 결제번호는 매장별·날짜별 일련번호로 발급합니다.
-- 모바일에서 등록한 공동 영수증을 연결된 각 주문에서 조회할 수 있습니다. 사진과 총액을 중복 저장하지 않으며, 연결 주문과 묶음 총액을 확인할 수 있습니다.
-- 공동 영수증 등록에는 새 모바일 버전 1.0.49+51이 필요합니다.
+      <title>Windows POS 1.0.32+44</title>
+      <description>픽업 화면에 Grouped payments 버튼 추가. 현재 고객의 묶음 번호, 연결 주문, 결제 방법 및 주문별 금액과 합계를 조회합니다.
 </description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.31%2B43/YorbaPOS-1.0.31.43-Setup.exe" sparkle:version="1.0.31.43" sparkle:os="windows" sparkle:dsaSignature="MDwCHAL+zMILDfjQLVaW80jqY5yUV8BEZjY0pGAWAuYCHD1pc+pM36R6uPi0q+xS6+xz8qwQbQpj8AcOTUY=" length="25664425" type="application/octet-stream" />
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.32%2B44/YorbaPOS-1.0.32.44-Setup.exe" sparkle:version="1.0.32.44" sparkle:os="windows" sparkle:dsaSignature="MD0CHQC7QaBhItO3vvmkuTbhiQ8GcncsMj9rA2NHZ7VZAhwO04KZxGYO5Y19YN2jCjljmMCTbzXTFVB4UPKG" length="25665700" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
