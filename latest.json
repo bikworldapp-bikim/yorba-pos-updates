@@ -1,6 +1,6 @@
 {
-  "tag_name": "v1.0.35+47",
+  "tag_name": "v1.0.36+48",
   "draft": false,
   "prerelease": false,
-  "body": "Add invoice-printer price lists with shared Yorba/Lido item selection in Admin Tools. Each store prints its own prices and store header, followed by the specialty-item notice. The price-list button follows the store-switch button. Includes all fixes from 1.0.34+46.\n"
+  "body": "Price lists now include larger text, print date, a price-change notice, and a store-specific QR code. Preserve selected items by stable store item IDs when names or prices change. Save shared selections to local configuration backup and include the Yorba selection when backing up Lido.\n"
 }
