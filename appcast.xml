@@ -3,10 +3,10 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>Windows POS 1.0.34+46</title>
-      <description>Reconcile locally pending orders against confirmed server records after login and when viewing Storage or Pickup. Orders deleted on the server are marked missing in the local backup and excluded from local lists. Existing orders refresh pickup, storage and void status. Original backup content is retained; offline failures and timeouts never mark orders deleted. Repeated checks are throttled.
+      <title>Windows POS 1.0.35+47</title>
+      <description>Add invoice-printer price lists with shared Yorba/Lido item selection in Admin Tools. Each store prints its own prices and store header, followed by the specialty-item notice. The price-list button follows the store-switch button. Includes all fixes from 1.0.34+46.
 </description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.34%2B46/YorbaPOS-1.0.34.46-Setup.exe" sparkle:version="1.0.34.46" sparkle:os="windows" sparkle:dsaSignature="MDwCHHQaq1/6Ps678HYeshVnVhEhpa7PVTyoshPGpeICHCROVANjlODKoZP9hGoriIlMQTtfGrrO0w6GPDo=" length="25687777" type="application/octet-stream" />
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.35%2B47/YorbaPOS-1.0.35.47-Setup.exe" sparkle:version="1.0.35.47" sparkle:os="windows" sparkle:dsaSignature="MD0CHFN3BICDK+z/b+VdDcl8apm3+98xaJ+/RzXD3D8CHQCpFcvSRUDJXc0qcbzULOIJ6eeKt3v4nMtK0kfn" length="25701316" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
