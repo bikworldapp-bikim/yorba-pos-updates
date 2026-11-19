@@ -1,6 +1,6 @@
 {
-  "tag_name": "v1.0.39+51",
+  "tag_name": "v1.0.40+52",
   "draft": false,
   "prerelease": false,
-  "body": "Windows POS 1.0.39+51\n\n- Fix Lido summary amounts and transaction counts appearing as zero when logged in as YORBA. Wait for initial local summary synchronization before calculating combined totals.\n- Organize receipt management by card batch. Show month/day, amount and transaction count in each batch row.\n- Show payment-method totals and filters inside each batch, with larger POS text and icons.\n- Show linked payment-record counts when an older batch has no saved transaction count. Do not double-count receipt photos or shared orders.\n- Open receipt photos directly from the unassigned list. Use the separate link button to assign a batch.\n- Preserve explicit batch assignments; use pickup dates to match only unassigned receipts to a unique batch.\n\nValidation: Windows release build and local upgrade to 1.0.39+51 completed; receipt counting and batch-screen tests passed at 1024 and 1920 widths."
+  "body": "Windows POS 1.0.40+52\n\n- Fix Summary waiting until \"local summary is still syncing\" even when Firestore already has the same cached data.\n- Listen for server-confirmation metadata events for order, payment and payment-correction backups.\n- On the first confirmed server snapshot, persist all returned documents before marking the local summary ready. An empty change list no longer skips the initial backup.\n- Keep later updates incremental and preserve the existing Yorba/Lido combined summary.\n\nIncludes the receipt batch, transaction-count and photo-viewing improvements from 1.0.39+51."
 }
