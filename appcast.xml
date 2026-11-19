@@ -3,18 +3,16 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>Windows POS 1.0.39+51</title>
-      <description>Windows POS 1.0.39+51
+      <title>Windows POS 1.0.40+52</title>
+      <description>Windows POS 1.0.40+52
 
-- Fix Lido summary amounts and transaction counts appearing as zero when logged in as YORBA. Wait for initial local summary synchronization before calculating combined totals.
-- Organize receipt management by card batch. Show month/day, amount and transaction count in each batch row.
-- Show payment-method totals and filters inside each batch, with larger POS text and icons.
-- Show linked payment-record counts when an older batch has no saved transaction count. Do not double-count receipt photos or shared orders.
-- Open receipt photos directly from the unassigned list. Use the separate link button to assign a batch.
-- Preserve explicit batch assignments; use pickup dates to match only unassigned receipts to a unique batch.
+- Fix Summary waiting until "local summary is still syncing" even when Firestore already has the same cached data.
+- Listen for server-confirmation metadata events for order, payment and payment-correction backups.
+- On the first confirmed server snapshot, persist all returned documents before marking the local summary ready. An empty change list no longer skips the initial backup.
+- Keep later updates incremental and preserve the existing Yorba/Lido combined summary.
 
-Validation: Windows release build and local upgrade to 1.0.39+51 completed; receipt counting and batch-screen tests passed at 1024 and 1920 widths.</description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.39%2B51/YorbaPOS-1.0.39.51-Setup.exe" sparkle:version="1.0.39.51" sparkle:os="windows" sparkle:dsaSignature="MD4CHQC/D6rDevZx7doaDbKfWYYQcVCxVq2qBkgv4EaaAh0AuOJp4FWSWF3I+8aDxr3MKcjxPz9wV8xLzhO/KA==" length="25726822" type="application/octet-stream" />
+Includes the receipt batch, transaction-count and photo-viewing improvements from 1.0.39+51.</description>
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.40%2B52/YorbaPOS-1.0.40.52-Setup.exe" sparkle:version="1.0.40.52" sparkle:os="windows" sparkle:dsaSignature="MD0CHDgE2QrkssRecN5dZ70+LTjL1kK0p6kLANIWLycCHQCVuL1WA8KuJuNU57mTxYrVkqybY6irZBjBe5pL" length="25728053" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
