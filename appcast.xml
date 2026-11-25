@@ -3,16 +3,18 @@
   <channel>
     <title>Yorba Cleaners POS</title>
     <item>
-      <title>Windows POS 1.0.41+60</title>
-      <description>Windows POS 1.0.41+60
+      <title>Windows POS 1.0.41+61</title>
+      <description>Windows POS 1.0.41+61
 
-- Add Pay &amp; Pickup to the unconfirmed inventory list, using the existing storage correction behavior: zero the balance, set pickup to the Due Date, and mark the location with [fix]. Confirm the correction before applying; it does not collect a payment transaction.
-- Keep corrected orders separate from physically scanned orders, and verify Firebase and local backup updates before removing them from the remaining list.
-- Print unconfirmed orders and scanned exceptions separately on the invoice printer. Preview includes order number, customer, location, quantity, balance, and exception details without truncating long values.
-- Allow staff to edit storage locations in Dropoff. Prefill the current location and preserve the rack date when only the location changes. Apply the edit, then use the existing order Save button. Existing picked-up-order restrictions remain.
-- Retain all inventory, native speech, location editing, receipt, and summary improvements from 1.0.41+57.
+- Automatically save inventory checks to this PC's local database, separately for each store. Preserve unconfirmed orders, scans, exceptions, Pay &amp; Pickup corrections, and completion state across screen navigation and app restarts.
+- Restore the existing check when reopening it. Add newly stored orders to the unconfirmed list without clearing prior scans; flag changed order records for review.
+- Add Refresh stored orders for checks kept open across days. Record and display the check start time and scan timestamps, including on printed reports.
+- Keep the saved check until New check is explicitly confirmed. Display local save failures and allow retry without silently discarding the in-memory check.
+- Retain all functionality from 1.0.41+60, including inventory printing, Pay &amp; Pickup corrections, native speech, and Dropoff storage-location editing.
+
+Saved checks are local to this PC and store. Checks from older versions that were already closed cannot be recovered retroactively.
 </description>
-      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.41%2B60/YorbaPOS-1.0.41.60-Setup.exe" sparkle:version="1.0.41.60" sparkle:os="windows" sparkle:dsaSignature="MD0CHQCrYYqaNC+hhxP65hne7dcsgNam7zWX8Wi/cSRkAhwkw02TjtdHKqTi+gOnE1wm5C5Y0pMd4pS0W66r" length="25746821" type="application/octet-stream" />
+      <enclosure url="https://github.com/bikworldapp-bikim/yorba-pos-updates/releases/download/v1.0.41%2B61/YorbaPOS-1.0.41.61-Setup.exe" sparkle:version="1.0.41.61" sparkle:os="windows" sparkle:dsaSignature="MDwCHCs1bnv98TJLrbC/j5qEJMPi6ovWgLqi6xldizwCHF39IrNjG4aEg+NrSMFWr/95bAr7ATPhV4hCfKo=" length="25752600" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
