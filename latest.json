@@ -1,6 +1,6 @@
 {
-  "tag_name": "v1.0.40+52",
+  "tag_name": "v1.0.41+57",
   "draft": false,
   "prerelease": false,
-  "body": "Windows POS 1.0.40+52\n\n- Fix Summary waiting until \"local summary is still syncing\" even when Firestore already has the same cached data.\n- Listen for server-confirmation metadata events for order, payment and payment-correction backups.\n- On the first confirmed server snapshot, persist all returned documents before marking the local summary ready. An empty change list no longer skips the initial backup.\n- Keep later updates incremental and preserve the existing Yorba/Lido combined summary.\n\nIncludes the receipt batch, transaction-count and photo-viewing improvements from 1.0.39+51."
+  "body": "Windows POS 1.0.41+57\n\n- Add Inventory Check beside Inventory Management, with more space between the TTS, SMS, and inventory controls.\n- Compare stored orders and scanned inventory side by side using the local order database. Keyboard entry and barcode scans are supported.\n- Show registered storage locations and announce the last three order digits plus location using a reusable Windows speech engine.\n- Flag picked-up, canceled, and locally unknown orders found during scanning. Review remaining orders and record changes at completion.\n- Edit storage locations from the scanned list and save to Firebase and the local database, with conflict detection and partial-save retry messages.\n- Preserve the receipt, batch, photo-viewing, and summary synchronization improvements from 1.0.40+52.\n\nInventory checks confirm order presence, not individual piece counts. Scan sessions are kept while the Storage Screen remains open. Location edits require Firebase connectivity.\n"
 }
