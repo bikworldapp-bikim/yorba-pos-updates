@@ -1,6 +1,6 @@
 {
-  "tag_name": "v1.0.41+61",
+  "tag_name": "v1.0.41+66",
   "draft": false,
   "prerelease": false,
-  "body": "Windows POS 1.0.41+61\n\n- Automatically save inventory checks to this PC's local database, separately for each store. Preserve unconfirmed orders, scans, exceptions, Pay & Pickup corrections, and completion state across screen navigation and app restarts.\n- Restore the existing check when reopening it. Add newly stored orders to the unconfirmed list without clearing prior scans; flag changed order records for review.\n- Add Refresh stored orders for checks kept open across days. Record and display the check start time and scan timestamps, including on printed reports.\n- Keep the saved check until New check is explicitly confirmed. Display local save failures and allow retry without silently discarding the in-memory check.\n- Retain all functionality from 1.0.41+60, including inventory printing, Pay & Pickup corrections, native speech, and Dropoff storage-location editing.\n\nSaved checks are local to this PC and store. Checks from older versions that were already closed cannot be recovered retroactively.\n"
+  "body": "## Windows POS 1.0.41+66\n\n- 미디어 상태 화면에서 이 PC와 클라우드의 파일 수와 용량을 종류별로 확인합니다.\n- 영수증 관리와 미디어 자동 정리 설정을 관리자 도구에서 관리합니다. 로컬 영수증 자동 정리는 기본적으로 꺼져 있으며 보관 기간 기본값은 60개월입니다.\n- 최근 7일 이내에 모바일에서 PC로 받은 주문 사진을 같은 매장의 Windows POS 간에 백그라운드로 공유합니다. 파일의 크기와 해시를 확인하고 실패한 작업은 다시 시도합니다.\n- 문자 첨부파일의 보관 기간을 미디어 자동 정리 설정에서 지정할 수 있습니다. 변경은 새로 발송·수신하거나 취소하는 건부터 적용됩니다.\n\n클라우드 파일 수와 용량은 저장된 기록 기준이며 실제 저장소 전수 검사 결과가 아닙니다.\n"
 }
